@@ -2,31 +2,39 @@ body {
     background-color: rgb(67, 140, 182);
   }
 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blue;
 }
 h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     color: blue;
     text-decoration: underline;
 }
 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 }
 a:link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     background-color: transparent;
     text-decoration: none;
 }
 a:visited {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: coral;
     background-color: transparent;
     text-decoration: none;
 }
 a:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     background-color: blue;
     text-decoration: underline;
 }
 a:active {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: green;
     background-color: blue;
     text-decoration: none;
@@ -42,6 +50,7 @@ li {
     float: left;
 }
 li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: block;
     color: white;
     text-align: center;
