@@ -31,3 +31,23 @@ a:active {
     background-color: blue;
     text-decoration: none;
 }
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: blue;
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: darkblue;
+}
