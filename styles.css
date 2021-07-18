@@ -4,6 +4,7 @@ body {
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blue;
+    text-align: center;
 }
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,6 +13,10 @@ h2 {
     text-decoration: underline;
 }
 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+label {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 }
@@ -41,14 +46,16 @@ a:active {
     text-decoration: none;
 }
 ul {
+    border: 2px inset powderblue;
     list-style-type: none;
-    margin: 100px;
-    margin-left: 50%;
+    margin-left: 43%;
+    margin-right: 43.9%;
     padding: 5px;
     overflow: hidden;
     background-color: blue;
 }
 li {
+    border: 1px outset powderblue;
     float: left;
 }
 li a{
