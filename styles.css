@@ -17,6 +17,7 @@ p {
 }
 a:link {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
     color: white;
     background-color: transparent;
     text-decoration: none;
@@ -41,7 +42,7 @@ a:active {
 }
 ul {
     list-style-type: none;
-    margin: 5px;
+    margin: 100px;
     padding: 5px;
     overflow: hidden;
     background-color: blue;
