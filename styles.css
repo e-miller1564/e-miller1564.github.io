@@ -12,17 +12,17 @@ p {
     color: black;
 }
 a:link {
-    color: blue;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
 a:visited {
-    color: red;
+    color: coral;
     background-color: transparent;
     text-decoration: none;
 }
 a:hover {
-    color: white;
+    color: black;
     background-color: blue;
     text-decoration: underline;
 }
