@@ -46,18 +46,17 @@ a:active {
     text-decoration: none;
 }
 ul {
-    border: 2px inset powderblue;
+    text-align: center;
     list-style-type: none;
-    margin-left: 43%;
-    margin-right: 43.9%;
     padding: 5px;
     overflow: hidden;
-    background-color: blue;
-    background-image: linear-gradient(to bottom, rgb(0, 0, 255), rgb(0, 125, 255));
 }
 li {
+    display: inline-block;
+    background-color: blue;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 255), rgb(0, 125, 255));
+    border-radius: 25px;
     border: 1px outset powderblue;
-    float: left;
 }
 li a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -68,5 +67,6 @@ li a{
     text-decoration: none;
 }
 li a:hover {
+    border-radius: 25px;
     background-color: darkblue;
 }
