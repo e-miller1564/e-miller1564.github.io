@@ -126,7 +126,6 @@ li a:hover {
     border-radius: 15px;
     border: 1px outset powderblue;
     background-color: darkblue;}
-  .dropdown-content a:visited {color: coral;}
 
   .dropdown:hover .dropdown-content {display: block;}
 
