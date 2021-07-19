@@ -53,6 +53,7 @@ ul {
     padding: 5px;
     overflow: hidden;
     background-color: blue;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 255), rgb(0, 125, 255));
 }
 li {
     border: 1px outset powderblue;
