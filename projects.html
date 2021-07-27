@@ -6,6 +6,7 @@
         <title>Projects|Erik Miller</title>
     </head>
     <body>
+        <script src="visualscripts.js"></script>
         <h1>Projects</h1>
         <ul>
             <li><a href="index.html">Homepage</a></li>
@@ -13,8 +14,6 @@
                 <button class="dropbtn">Projects</button>
                 <div class="dropdown-content">
                     <a href="#texteditor">Text Editor</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
                 </div>
             </div></li>
             <li><a href="contact.html">Contact Me</a></li>
@@ -27,6 +26,7 @@
         <p>A text editor with rich features including:<br></p>
         <p>Word Count, Sentence Count, Flesch Score, Markov Chain Paragraph Generator and Spell Check.</p>
         <a href="https://github.com/e-miller1564/Text-Editor">GitHub Page</a>
-        <iframe title="Video Presentation" width="1024" height="576" src="https://www.youtube.com/embed/gfowLmo84Zs"></iframe>
+        <button id="vidLink1" onclick="showOrHideVideo()">Show Video</button><br>
+        <iframe id="textEditVid" title="Video Presentation" width="800" height="450" src="https://www.youtube.com/embed/gfowLmo84Zs" style="display: none;"></iframe>
     </body>
 </html>
